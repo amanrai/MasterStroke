@@ -1,0 +1,3 @@
+Here is a sample query to get the winner for a constituency for a given year. 
+
+```sql

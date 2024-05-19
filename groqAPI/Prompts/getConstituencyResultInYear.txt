@@ -1,0 +1,20 @@
+Here is a sample Requirement:
+Year: 2014
+Constituency: SAMASTIPUR
+Sample Output
+
+"query":"select Candidate, Position, Party, Last_Party, Votes, Margin_Percentage, Turnout_Percentage, N_Cand, Incumbent as isIncumbent from all_election_data where year=2014 and Constituency_Name like '%SAMASTIPUR%' and Position <= 3"
+
+
+Here is a sample Requirement:
+Year: 2019
+Constituency: DARBHANGA
+
+"query":"select Candidate, Position, Party, Last_Party, Votes, Margin_Percentage, Turnout_Percentage, N_Cand, Incumbent as isIncumbent from all_election_data where year=2019 and Constituency_Name='%DARBHANGA%' and Position <= 3"
+
+
+Here is the current requirement:
+Year: {exact_year}
+Constituency: {exact_constituency}
+
+Write a query output of the kind in the examples above. Respond in JSON only. Your output should be a single dict with the key "query". Remember to copy the values of year and constituency exactly.

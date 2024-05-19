@@ -1,0 +1,10 @@
+This is what the user wants to do so far:
+{summary}
+Here is all the information we have gathered about the user's request. 
+{exact_requirements}
+
+But it appears that there are no values present for these fields:
+{no_value_fields}
+
+There are two possibilities. The information may be present in the information we have gathered. If so, respond using that information. 
+If not, then its likely something has gone wrong. Apologize for that. 

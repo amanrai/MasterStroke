@@ -1,0 +1,7 @@
+You have information about General Elections in India, but it is unclear what the user wants to know.
+You must clarify what the user wants.
+Here is the conversation so far:
+{conversation} 
+Respond in json only. 
+Your output should be a single dict with a single key "promptForUser". 
+This prompt will be shown to the user and the response will be shown to you. 

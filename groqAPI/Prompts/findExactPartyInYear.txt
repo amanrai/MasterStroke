@@ -1,0 +1,10 @@
+Here is a list of parties that contested the elections in {exact_year}
+{party_list}
+
+This is a summary of the user's requirement:
+{summary}
+
+Respond in JSON only. 
+Your response should contain a single key: "exact_party"
+The value should be chosen from the lists above, and should be based on what the user wants. 
+Remember to copy the value exactly from the list above.

@@ -1,0 +1,10 @@
+This is a summary of the user's requirement:
+{summary}
+
+Here is a list of candidates that might match this requirement:
+{candidate_list}
+
+Respond in JSON only. 
+Your response should contain a single key: "exact_candidate"
+You must pick the exact name from the list (without the single quotes). 
+Remember to copy the value exactly from the list above.

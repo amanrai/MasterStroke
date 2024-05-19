@@ -1,0 +1,12 @@
+Here is a sample requirement:
+State: Maharashtra
+Year: 2019
+Sample Output
+
+"query":"SELECT Constituency_Name, max(Winner), max(RunnerUp) from ( Select Constituency_Name, CASE WHEN Position=1 THEN Party END as Winner, CASE WHEN Position=2 THEN Party END as RunnerUp from all_election_data where year=2019 and State_Name = 'Maharashtra' and (Winner is not null or RunnerUp is not null) ) group by Constituency_Name"
+
+Here is the Users requirement:
+State: {exact_state}
+Year: {exact_year}
+
+Write a query output of the kind in the examples above. Respond in JSON only. Your output should be a single dict with the key "query". Remember to copy the values of year and state exactly.

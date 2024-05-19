@@ -1,0 +1,13 @@
+Here is a list of states in which elections were held in {exact_year}
+{state_list}
+
+Here is a list of constituencies in which elections were held in {exact_year}
+{constituency_list}
+
+This is a summary of the user's requirement:
+{summary}
+
+Respond in JSON only. 
+Your response can contain up to two keys "exact_state" and "exact_constituency"
+The value should be chosen from the lists above, and should be based on what the user wants. 
+Maintain the casing of the values. 

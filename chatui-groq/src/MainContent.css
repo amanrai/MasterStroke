@@ -1,0 +1,27 @@
+/* Define a css class here */
+.header-menu-button {
+    stroke: rgb(41, 41, 41);
+    max-width: 32px;
+    max-height: 32px;
+    transform: transform 0.3s ease-in-out;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    /*padding-bottom: 1.25rem; */
+}
+
+.header-menu-button-left {
+    stroke: rgb(41, 41, 41);
+    max-width: 32px;
+    max-height: 32px;
+    transform: transform 0.3s ease-in-out;
+}
+
+.header-menu-button-left:hover {
+    stroke: black;
+    transform: scale(2.1)
+}
+
+.header-menu-button:hover {
+    stroke: black;
+    transform: scale(2.1)
+}

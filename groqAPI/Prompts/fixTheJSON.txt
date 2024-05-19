@@ -1,0 +1,4 @@
+Here is some malformed JSON:
+{malformed_json}
+
+Fix it and respond in JSON only. 

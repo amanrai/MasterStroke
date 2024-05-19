@@ -1,0 +1,12 @@
+Here is a summary of the user's requirement:
+{summary}
+
+Here are the tools available to you to execute:
+getConstituencyResultInYear
+getStateResultsSummaryInYear
+getStateResultsWithBreakdownInYear
+getNationalResultInYear
+
+You must make a choice of which tool to execute now. 
+Respond only in JSON. 
+Your response should be a single dictionary with a single key "resultFinderTool". The value should be one of the tools from the list above. 

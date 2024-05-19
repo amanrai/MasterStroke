@@ -1,0 +1,24 @@
+This is the conversation so far:
+{conversation}
+
+You are responding to this specific requirement:
+{summary}
+
+Based on the requirement we extracted a lot of information, not all of which might be relevant to the original query:
+{exact_requirements}
+
+We then detailed out that result:
+{result_summary}
+{tool_result}
+
+Round any decimals to two places.
+Communicate the result to the user in a meaningful way. Do not make any assumptions about the differences between the user's query and the results provided by the tool. 
+Those results will generally be accurate. Where possible, provide a table (internally represented as a csv) of the result in a separate code block. Make sure to label the block csv so that it can be rendered correctly.
+If the answer is not in the result, but in the information we extracted, use that. 
+You have already been communicating with the user, so this isn't your first response. Keep the conversation going. Be brief, professional, and precise. Exclude all personal salutations.
+Here is an example result of a csv block. 
+```csv
+Constituency Name,Winner,Runner Up
+ANANTNAG,JKPDP,JKN
+BARAMULLA,JKPDP,JKN
+```

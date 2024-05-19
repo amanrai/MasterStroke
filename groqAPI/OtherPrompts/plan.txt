@@ -1,0 +1,69 @@
+Here is a summary of the conversation so far:
+{conversation_summary}
+Here is a description of the user's requirement:
+{requirement_description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A plan will generally be:
+STEP 0: SUMMARIZE_REQUIREMENT
+STEP 1: UNDERSTAND_REQUIREMENT_WITH_REAL_VALUES
+STEP 2: ARTICULATE_QUERY_IN_WORDS
+STEP 3: DEVELOP_QUERY_IN_SQL
+STEP 4: EXECUTE_QUERY
+STEP 5: RESPOND_TO_USER_WITH_RESULTS
+
+You are currently at {}

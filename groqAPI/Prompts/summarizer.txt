@@ -1,0 +1,10 @@
+Here is the conversation so far. 
+{conversation}
+*******
+Summarize the user's current requirement. 
+Once you have summarized, choose the next step from the following list:
+- ClarifyUserRequest
+- UseToolToFindInformationAboutUserQuery
+- RespondToUser
+Respond in json only. Your output should be a dict two keys "summary" and "nextStep".
+Remember to summarize only the immediate requirement but include details that are relevant from the conversation.

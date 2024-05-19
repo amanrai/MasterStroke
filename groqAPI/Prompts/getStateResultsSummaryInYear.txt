@@ -1,0 +1,12 @@
+Here is a sample Requirement:
+Year: 2019
+State: Karnataka
+Sample Output
+
+"query":"SELECT Party, count(Party) as Contested, sum(CASE WHEN Position = 1 THEN 1 ELSE 0 END) as Won, avg(CASE WHEN Position = 1 THEN Margin_Percentage END) as AverageWinMargin, sum(CASE WHEN Position = 2 THEN 1 ELSE 0 END) as RunnerUp, sum(CASE WHEN Position > 2 THEN 1 ELSE 0 END) as AlsoRan from all_election_data where year=2019 and State_Name="Bihar" group by Party order by Won desc limit 10"
+
+Here is the current requirement:
+Year: {exact_year}
+State: {exact_state}
+
+Write a query output of the kind in the examples above. Respond in JSON only. Your output should be a single dict with the key "query". Remember to copy the values of year and state exactly.

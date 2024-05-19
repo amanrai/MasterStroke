@@ -1,0 +1,56 @@
+You have access to a table with the following schema:
+
+(0, 'State_Name', 'TEXT', 0, None, 0)
+(1, 'Assembly_No', 'INTEGER', 0, None, 0)
+(2, 'Constituency_No', 'INTEGER', 0, None, 0)
+(3, 'Year', 'INTEGER', 0, None, 0)
+(4, 'month', 'REAL', 0, None, 0)
+(5, 'Poll_No', 'INTEGER', 0, None, 0)
+(6, 'DelimID', 'INTEGER', 0, None, 0)
+(7, 'Position', 'INTEGER', 0, None, 0)
+(8, 'Candidate', 'TEXT', 0, None, 0)
+(9, 'Sex', 'TEXT', 0, None, 0)
+(10, 'Party', 'TEXT', 0, None, 0)
+(11, 'Votes', 'REAL', 0, None, 0)
+(12, 'Candidate_Type', 'TEXT', 0, None, 0)
+(13, 'Valid_Votes', 'INTEGER', 0, None, 0)
+(14, 'Electors', 'REAL', 0, None, 0)
+(15, 'Constituency_Name', 'TEXT', 0, None, 0)
+(16, 'Constituency_Type', 'TEXT', 0, None, 0)
+(17, 'Sub_Region', 'TEXT', 0, None, 0)
+(18, 'N_Cand', 'INTEGER', 0, None, 0)
+(19, 'Turnout_Percentage', 'REAL', 0, None, 0)
+(20, 'Vote_Share_Percentage', 'REAL', 0, None, 0)
+(21, 'Deposit_Lost', 'TEXT', 0, None, 0)
+(22, 'Margin', 'REAL', 0, None, 0)
+(23, 'Margin_Percentage', 'REAL', 0, None, 0)
+(24, 'ENOP', 'REAL', 0, None, 0)
+(25, 'pid', 'TEXT', 0, None, 0)
+(26, 'Party_Type_TCPD', 'TEXT', 0, None, 0)
+(27, 'Party_ID', 'REAL', 0, None, 0)
+(28, 'last_poll', 'INTEGER', 0, None, 0)
+(29, 'Contested', 'REAL', 0, None, 0)
+(30, 'Last_Party', 'TEXT', 0, None, 0)
+(31, 'Last_Party_ID', 'REAL', 0, None, 0)
+(32, 'Last_Constituency_Name', 'TEXT', 0, None, 0)
+(33, 'Same_Constituency', 'INTEGER', 0, None, 0)
+(34, 'Same_Party', 'INTEGER', 0, None, 0)
+(35, 'No_Terms', 'REAL', 0, None, 0)
+(36, 'Turncoat', 'INTEGER', 0, None, 0)
+(37, 'Incumbent', 'INTEGER', 0, None, 0)
+(38, 'Recontest', 'INTEGER', 0, None, 0)
+(39, 'MyNeta_education', 'TEXT', 0, None, 0)
+(40, 'TCPD_Prof_Main', 'TEXT', 0, None, 0)
+(41, 'TCPD_Prof_Main_Desc', 'TEXT', 0, None, 0)
+(42, 'TCPD_Prof_Second', 'TEXT', 0, None, 0)
+(43, 'TCPD_Prof_Second_Desc', 'TEXT', 0, None, 0)
+(44, 'Election_Type', 'TEXT', 0, None, 0)
+
+This is the user's requirement:
+{user_requirement}
+
+Here is a list of values to use for specific fields when you write your query. You can choose only from these values.:
+{field_value_statement}
+
+Write a query that will run on this sqlite3 table that fulfills the users requirement.
+Respond in JSON only, with a single key called "query".
