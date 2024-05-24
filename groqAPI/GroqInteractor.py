@@ -1,7 +1,8 @@
 from groq import Groq
 import os
 import json
-os.environ["GROQ_API_KEY"] = "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"
+from keys import *
+# os.environ["GROQ_API_KEY"] = "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"
 from decorators import *
 
 class GroqInteractor:
